@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Adeniyi Richard">
+	<link rel="stylesheet" href="./assets/style/index.css" />
+	<title>Shape factory</title>
+	<script src="./assets/script/index.js" type="module"></script>
+</head>
+<body>
+	<div class="v-wrapper">
+		<div class="v-wrap">
+			<div class="v-wrap-inner">
+				<h2 class="v-title">My Contacts</h2>
+				<form id="contactForm">
+					<div class="v-contact-form-inner">
+						<input type="text" spellcheck="false" id="name" name="name"
+							placeholder="Contact Info (Name, City, Email)" required class="form-control" />
+						<button type="submit" class="v-submit">Add</button>
+					</div>
+					<span class="v-input-subtext"></span>
+				</form>
+				<div class="v-subtext-container">
+					<span class="v-subtext">Most recent contacts</span>
+				</div>
+				<div id="contactsList">
+				</div>
+			</div>
+			<div class="v-bottom">
+				<span>*Count and display the number of saved contacts</span>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
