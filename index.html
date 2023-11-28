@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="./assets/style/index.css" />
 	<title>Contacts Info</title>
 	<script src="./assets/script/index.js" type="module"></script>
+	<script src="./assets/script/class.js" defer></script>
 </head>
 <body>
 	<div class="v-wrapper">
@@ -16,8 +17,14 @@
 				<h2 class="v-title">My Contacts</h2>
 				<form id="contactForm">
 					<div class="v-contact-form-inner">
-						<input type="text" spellcheck="false" id="name" name="name"
-							placeholder="Contact Info (Name, City, Email)" required class="form-control" />
+						<input
+							type="text"
+							spellcheck="false"
+							id="name"
+							name="name"
+							placeholder="Contact Info (Name, City, Email)"
+							required
+							class="form-control" />
 						<button type="submit" class="v-submit">Add</button>
 					</div>
 					<span class="v-input-subtext"></span>
@@ -29,10 +36,9 @@
 				</div>
 			</div>
 			<div class="v-bottom">
-				<span>The number of saved contacts</span>
+				<span>Number of saved contacts = <span class="total_number"> 0 </span></span>
 			</div>
 		</div>
 	</div>
 </body>
-
 </html>
