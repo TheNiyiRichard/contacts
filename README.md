@@ -2,4 +2,4 @@
 
 Generating contact infos using object oriented javascript
 
-https://theniyirichard.github.io/contacts/
+Click [here](https://theniyirichard.github.io/contacts/) to test
